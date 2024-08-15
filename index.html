@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pottery</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="img/icons.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  
+<div class="nav-top">
+    <nav class="navbar navbar-expand-md fixed-top" id="nav-color">
+        <div class="container" >
+        <!-- Brand -->
+        <a class="navbar-brand text-dark"id="logo" href="#">
+        <i><img src="img/logo.png" class="img-fluid"width="100px" height="50px"></i>
+        </a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span ><i><img src="img/more.png" alt="" width="30px"></i></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto "id="menu">
+            <li class="nav-item">
+              <a class="nav-link pl-4" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link pl-4" href="#product">Shop</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link pl-4" href="#wrk">Workshops</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link pl-4" href="#abt-1">About us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link pl-4" href="#us">Contact us</a>
+              </li>
+              <li class="nav-item " id="shop">
+                <a class="nav-link pl-4" href="#">Shopping cart</a>
+              </li>
+            <span></span> <a class="pl-4" id="cart"><i class="icon"><img src="img/shopping-cart.png" title="shopping cart" width="30px"></i></a>
+
+          </ul>
+         
+        </div>
+        
+        
+      </nav>
+     
+        
+
+
+<!--Carousel-->
+<div class="container-fluid mt-3"id="top">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner" id="image">
+      <div class="carousel-item active">
+        <img src="img/pot.jpg" class="d-block w-100" alt="img1">
+        <div class="carousel-caption">
+         <h3>Welcome to the world of </br>Pottery </h3>
+        <button class="btn"  id="shopnow-1" href="#">Shop Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/new.jpg"class="d-block w-100" alt="img2" >
+         <div class="carousel-caption">
+           <h3>Welcome to the world of </br>Pottery </h3>
+            <button class="btn" id="shopnow-2"href="#">Shop Now</button>
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/neww.jpg" class="d-block w-100" alt="img3">
+        <div class="carousel-caption">
+        <h3>Welcome to the world of </br>Pottery</h3> 
+        <button class="btn" id="shopnow-3" href="#">Shop Now </button>
+       </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+  </div>
+</div>
+<!--card1-->
+<div class="container" id="product">
+  <h3 class="text-center" style="margin-top:50px">OUR  PRODUCTS</h3>
+  <div class="row"style="margin-top:50px;">
+    <div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+      <div class="card " id="pot">
+        <img src="img/product-1.jpeg" alt="product-1" class="card image-top">
+        <div class="card-body">
+          <h3 class="card-title text-center">Sea-blue Pot</h3>
+            <p class="card-text text-center">&#8377;400</p>
+           <div class="text-center"><button type="button" class="buynow" id="buttons-1"width="20px" height="20px">Buy now</button></div>
+        </div>
+      </div>
+    </div>
+<!--card2-->
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot1">
+    <img src="img/product-2.jpeg" alt="product-2" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Marble Pot</h3>
+        <p class="card-text text-center">&#8377;550</p>
+       <div class="text-center"><button type="button" class="buynow" id="buttons-2"width="20px" height="20px">Buy now</button></div>
+    </div>
+ </div>
+</div>
+<!--card3-->
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot2">
+    <img src="img/product-3.jpeg" alt="product-3" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Twin Sister Pot</h3>
+        <p class="card-text text-center">&#8377;350</p>
+       <div class="text-center"><button type="button"  class="buynow" id="buttons-3"width="20px" height="20px">Buy now</button></div>
+    </div>
+  </div>
+</div>
+<!--card4-->
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot3">
+    <img src="img/product-4.jpeg" alt="product-4" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Square Pot</h3>
+        <p class="card-text text-center">&#8377;450</p>
+       <div class="text-center"><button type="button"   class="buynow"id="buttons-4"width="20px" height="20px">Buy now</button></div>
+    </div>
+   </div>
+ </div>
+</div>
+<!--card5-->
+<div class="row"style="margin-top:50px;">
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot4">
+    <img src="img/product-5.jpeg" alt="product-5" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Arabic Pot</h3>
+        <p class="card-text text-center">&#8377;700</p>
+       <div class="text-center"><button type="button"   class="buynow"id="buttons-5"width="20px" height="20px">Buy now</button></div>
+      </div>
+    </div>
+</div>
+<!--card6-->
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot5">
+    <img src="img/product-6.jpeg" alt="product-6" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Brown Pot</h3>
+        <p class="card-text text-center">&#8377;350</p>
+       <div class="text-center"><button type="button"   class="buynow" id="buttons-6"width="20px" height="20px">Buy now</button></div>
+    </div>
+  </div>
+</div>
+<!--card7-->
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot6">
+    <img src="img/product-8.jpeg"alt="product-7" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Leaf Pot</h3>
+        <p class="card-text text-center">&#8377;650</p>
+       <div class="text-center"><button type="button"    class="buynow"id="buttons-7"width="20px" height="20px">Buy now</button></div>
+    </div>
+  </div>
+</div>
+<!--card8-->
+<div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+  <div class="card " id="pot7">
+    <img src="img/product-9.jpeg" alt="product-8" class="card image-top">
+    <div class="card-body">
+      <h3 class="card-title text-center">Cute Pot</h3>
+        <p class="card-text text-center">&#8377;400</p>
+       <div class="text-center"><button type="button"  class="buynow" id="buttons-8"width="20px" height="20px">Buy now</button></div>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+<!---long cards1-->
+<div class="container" >
+  <h3 class="text-center " style="margin-top:50px">OUR POPULAR PRODUCTS</h3>
+  <div class="row"style="margin-top:50px;">
+    <div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+      <div class="card " id="pot8">
+        <img src="img/long6.jpeg" alt="product-9" class="card image-top">
+        <div class="card-body">
+          <h3 class="card-title text-center">Flower vast</h3>
+            <p class="card-text text-center">&#8377;1400</p>
+           <div class="text-center"><button type="button"  class="buynow" id="buttons-9"width="20px" height="20px">Buy now</button></div>
+        </div>
+      </div>
+    </div>
+     <!--long cards2-->
+     <div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+      <div class="card " id="pot9">
+        <img src="img/long2.jpeg" alt="product-10" class="card image-top">
+        <div class="card-body">
+          <h3 class="card-title text-center">Shinny Pot</h3>
+            <p class="card-text text-center">&#8377;2000</p>
+           <div class="text-center"><button type="button"  class="buynow" id="buttons-10"width="20px" height="20px">Buy now</button></div>
+        </div>
+      </div>
+    </div>
+        <!--long cards3-->
+     <div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+      <div class="card " id="pot10">
+        <img src="img/long3.jpeg" alt="product-11" class="card image-top">
+        <div class="card-body">
+          <h3 class="card-title text-center">Gold Pot</h3>
+            <p class="card-text text-center">&#8377;3500</p>
+           <div class="text-center"><button type="button"   class="buynow"id="buttons-11"width="20px" height="20px">Buy now</button></div>
+        </div>
+      </div>
+    </div>
+       <!--long cards4-->
+     <div class="col-md-6 col-lg-3 py-3 py-md-0 ">
+      <div class="card " id="pot11">
+        <img src="img/long4.jpeg" alt="product-12" class="card image-top">
+        <div class="card-body">
+          <h3 class="card-title text-center">Sandle-Blue Pot</h3>
+            <p class="card-text text-center">&#8377;1000</p>
+           <div class="text-center"><button type="button"  class="buynow" id="buttons-11"width="20px" height="20px">Buy now</button></div>
+        </div>
+      </div>
+    </div>
+     <!--long cards5-->
+</div>
+</div>
+<!--About us-->
+<div class="container"id="wrk">
+   <h3 class="text-center"style="margin-top:50px">WORKSHOPS</h3>
+     <div class="row" style="margin-top:50px" >
+      <div class="col-md-12 col-lg-6 py-3 py-md-0">
+        <div class="card" style=" border-radius: 15px 50px;">
+      <img src="img/work2.jpg" alt="img" style=" border-radius: 15px 50px;">
+      </div>
+      </div>
+
+         <div class="col-md-12 col-lg-6 py-3 py-md-0" id="workshop">
+           <h3 style="border-left:3px solid  orangered; padding: 5px;"><span style="color:brown">Excited to Explore</span> Your Artistic Side with Pottery</h3>
+              <p>
+              It is a time to learn Pottery with us!!! .A grand opening of our pottery workshop, a new space where creativity and craftsmanship 
+            come together.</br> </p> <p>Designed for enthusiasts of all 
+            levels, our workshop offers a unique opportunity to 
+            explore the timeless art of pottery.</br></p> 
+            <p> Whether you're a novice eager to try your hand at shaping
+             clay or an experienced artist seeking to hone your skills
+             , our workshop provides the perfect setting to bring your artistic vision to life.
+           </p>
+         </div>
+      
+    </div>
+</div>
+<!--last container-->
+<!--About Us-->
+<div class="container"id="abt-1">
+  <h3 class="text-center"style="margin-top:50px">ABOUT US</h3>
+     <div class="row" style="margin-top:50px" >
+         <div class="col-md-12 col-lg-6 py-3 py-md-0" id="aboutus">
+           <p id="abt"><span id="s">S</span>ince 1988, A Pottery has been dedicated to crafting 
+            exquisite cerami pieces that blend traditional techniques 
+            with modern aesthetics. Nestled in the heart of our community, 
+            we have spent over three decades perfecting our craft and bringing beautiful, 
+            functional art to your home.Founded by David, A Pottery
+            began as a small workshop with a passion for creating unique, handmade pottery. What started as a
+             humble beginning has flourished into a cherished local gem,
+              renowned for its high-quality ceramics and personalized service.</p>
+        </div>     
+        <div class="col-md-12 col-lg-6 py-3 py-md-0">
+                  <div class="card" >
+                    <img src="img/PotShop.jpg" alt="about" >
+                  </div>
+  </div>
+</div>
+</div>
+<!--Contact Us-->
+<h3 class="text-center " id="us"> Contact Us</h3>
+<div class="container-fluid" id="foot" style="background-color: #f5962bf8;">
+  <div class="row">
+    <div class="col-12">
+  <footer class="footer">
+    <img src="img/logo.png" alt="logo1" width="90px" height="90px"> 
+    <p>©2024, All rights reserved</p>
+    <h4>pottery@gmail.com</h4>
+    <p>Sarkhej - Gandhinagar Hwy, Thaltej, Ahmedabad, Gujarat 380054, India</p>
+    <p>Contact no:+91-1234567890</p>
+  </footer>
+</div>
+</div>
+</div>
+  
+
+
+
+          
+      
+</body>
+</html>

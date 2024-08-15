@@ -1,0 +1,162 @@
+*{
+    padding: 0%;
+    margin:0%;
+}
+          
+.nav-top{
+    margin-top: 100px;
+}
+#logo{
+    font-family:fantasy;
+}
+#nav-color{
+    background-color:rgba(245, 150, 43, 0.973);
+}
+div ul li a {
+    color:black;
+}
+div ul li a:hover{
+    color:white;
+
+}
+@media screen and (min-width:900px){
+    .carousel-item{
+        height: 100vh;
+        min-height: 300px;
+      
+        background-size:cover;
+    }
+  
+    .carousel-caption h3{
+       
+        padding-right:10px;
+        text-align:center;
+        font-size:200px;
+        color:rgba(245, 150, 43, 0.973);
+        font-family:Georgia, 'Times New Roman', Times, serif  ;  
+    }
+   #about p{
+      float: right;
+   }
+}
+
+
+
+@media screen and (max-width:600px){
+    #image img{
+        width:100%;
+        height:100%;
+    }
+    .carousel-caption h3{
+       font-size: 5vw;
+       
+       color:rgba(245, 150, 43, 0.973);
+       font-family:Georgia, 'Times New Roman', Times, serif  ;  
+    
+    }
+    .btn{
+        padding: 5px 20px !important;
+        font-size: 10px !important;
+    }
+    #cart{
+        display:none;
+    }
+
+
+}
+@media screen and (min-width:600px){
+    #image img{
+        width:100%;
+        height:100%;
+    }
+    .carousel-caption h3{
+       font-size: 5vw;
+       margin-bottom:10px;
+       color:rgba(245, 150, 43, 0.973);
+       font-family:Georgia, 'Times New Roman', Times, serif  ;  
+    
+    }
+    #cart{
+        display:none;
+    }
+    
+   
+}
+
+.carousel-item::before{
+    content:"";
+    position: absolute;
+    display: block;
+    top:0;
+    bottom: 1px;;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity:0.6;
+
+}
+#shopnow-1,#shopnow-2,#shopnow-3{
+    background-color:transparent; 
+    border: 2px solid rgb(238, 231, 226);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#shopnow-1:hover,#shopnow-2:hover,#shopnow-3:hover{
+    background-color:#f5962bf8 ;
+    color:black;
+    border:2px solid black;
+}
+#cart{
+  cursor:pointer;
+  
+}
+
+
+#cart:hover {
+    transform: scale(1.5);
+} 
+#logo:hover{
+    transform:scale(1.5);
+}
+.card{
+  box-shadow:0 0 5 black;
+  transition: 0.5ms;
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+.buynow{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.buynow:hover{
+   background-color: #f5962bf8;
+}
+
+#workshop p{
+    padding-top:5px;
+    color:grey;
+}
+#abt{
+    font-size: 22px;
+    color: black;
+    text-align: justify;
+}
+#s{
+    font-size: 40px;
+    color: #f5962bf8;
+}
+#foot{
+    text-align: center;
+}
+
+#us{
+margin-top:50px;
+color:black;
+font-size:30px;
+}
